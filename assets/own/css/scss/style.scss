@@ -1,12 +1,12 @@
 @charset "UTF-8";
 /*
 ==========================================================================
-Style.css - based on scss
+Style.css - based on SCSS
 ==========================================================================
 */
 
-/**
- * Setup
- */
-@import "vars";
+@import "scss_assets/index";
+
+@import "scss_assets/vars";
+
 @import "scss_assets/include";

@@ -1,0 +1,86 @@
+/*------------------------------------*\
+    2. Helper
+\*------------------------------------*/
+
+/**
+ * A series of helper classes
+**/
+
+.fr { float:right; }
+.fl { float:left; }
+
+.text-center,
+.text-centre{
+    text-align:center;
+}
+
+/**
+ * Add a help cursor to any element that gives the user extra information on
+ * `:hover`.
+**/
+
+.informative{
+    cursor:help;
+}
+
+
+/**
+ * Mute an object by reducing its opacity.
+**/
+
+.muted{
+    opacity:0.5;
+    filter:alpha(opacity = 50);
+}
+
+
+/**
+ * Align items to the right where they imply progression/movement forward, e.g.:
+ * 
+   <p class=proceed><a href=#>Read more...</a></p>
+ * 
+**/
+
+.proceed{
+    text-align:right;
+}
+
+
+/**
+ * Add a right-angled quote to links that imply movement, e.g.:
+ * 
+   <a href=# class=go>Read more</a>
+ * 
+**/
+
+.go:after{
+    content:" »";
+}
+
+
+/**
+ * Apply capital case to an element (usually a `strong`).
+**/
+
+.caps{
+    text-transform:uppercase;
+}
+
+
+/**
+ * Hide content off-screen without resorting to `display:none;`
+**/
+
+.accessibility              { position:absolute; left:-99999px; }
+[dir=rtl] .accessibility    { left:auto; right:-99999px; }
+
+
+/**
+ * Hide content based on breakpoint
+**/
+
+.hide{
+    position:absolute;
+    left:-9999px;
+}
+
