@@ -5,8 +5,8 @@ Style.css - based on SCSS
 ==========================================================================
 */
 
-@import "scss_assets/index";
+@import "partials/index";
 
-@import "scss_assets/vars";
+@import "partials/vars";
 
-@import "scss_assets/include";
+@import "partials/include";
