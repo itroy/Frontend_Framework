@@ -3,7 +3,7 @@
 This framework is a frontend framework based on:
 
 * [HTML5 Boilerplate - v4.2.0][1]
-* [Bootstrap - v2.3.1][2]
+* [Bootstrap - v3.0.][2]
 * [SCSS][3] principles and splited layout/scss subfiles
 * [Hammer][4] Template feature which helps creating html files out of multiple assets via @include rule
 
@@ -152,21 +152,21 @@ Each of them contains content which should be the same on each file/page you cre
 Due to the fact the framework is based on Bootstrap and Boilerplate the Credits goes the the creators:
 
 * [HTML5 Boilerplate - v4.2.0][13]
-* [Bootstrap - v2.3.1][14]
+* [Bootstrap - v3.0][14]
 
 And probably more…
 
 [1]:	http://html5boilerplate.com/
-[2]:	http://twitter.github.io/bootstrap/
+[2]: http://getbootstrap.com/
 [3]:	http://sass-lang.com/
 [4]:	http://hammerformac.com/
 [5]:	http://sass-lang.com/
 [6]:	http://hammerformac.com/
 [7]:	http://html5boilerplate.com/
-[8]:	http://twitter.github.io/bootstrap/
+[8]:	http://getbootstrap.com/
 [9]:	http://hammerformac.com/
 [10]:	https://github.com/Tischers/Frontend_Framework/archive/Main.zip
 [11]:	http://incident57.com/codekit/
 [12]:	http://hammerformac.com/
 [13]:	http://html5boilerplate.com/
-[14]:	http://twitter.github.io/bootstrap/
+[14]:	http://getbootstrap.com/
